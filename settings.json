@@ -89,3 +89,17 @@
     // GIT
     "git.autofetch": true
 }
+
+// Mendatory Plugins
+
+/* 
+   1. VIM
+   2. Bear Theme 
+   3. Error Lens
+   4. ES7 + React/Redux/React-Native snippets
+   5. ESLint
+   6. Import Cost
+   7. Material Icon Theme
+   8. Prettier
+   9. Project Manager
+*/
