@@ -1,0 +1,91 @@
+{
+    // Editor
+    "editor.fontSize": 16,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace'",
+    "editor.fontLigatures": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.wordWrap": "on",
+    "editor.suggest.insertMode": "replace",
+    "editor.formatOnSave": true,
+    "editor.dragAndDrop": true,
+    "editor.minimap.enabled": false,
+    "editor.smoothScrolling": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.quickSuggestionsDelay": 5,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/node_modules": true
+    },
+    "prettier.tabWidth": 4,
+    "editor.codeActionsOnSave": {
+        "source.addMissingImports": true,
+        "source.organizeImports": true
+    },
+    "workbench.colorTheme": "Bear Theme",
+    "explorer.confirmDelete": false,
+    "breadcrumbs.enabled": false,
+
+    // Terminal
+    "terminal.integrated.fontFamily": "'Fira Code'",
+    "terminal.integrated.fontSize": 17,
+    "terminal.integrated.gpuAcceleration": "on",
+    /* Extension Specific */
+    // Code Snap
+    "codesnap.containerPadding": "2em",
+    "codesnap.backgroundColor": "#111111",
+    "codesnap.transparentBackground": true,
+
+    // React Snippets
+    "reactSnippets.settings.prettierEnabled": true,
+
+    // Project Manager
+    "projectManager.git.baseFolders": ["E:/"],
+    "projectManager.sortList": "Recent",
+
+    // VIM
+    "vim.leader": "<space>",
+    "vim.useSystemClipboard": true,
+    "vim.highlightedyank.enable": true,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["leader", "h"],
+            "commands": ["editor.action.showHover"]
+        },
+        {
+            "before": ["leader", "c", "a"],
+            "commands": ["editor.action.quickFix"]
+        },
+        {
+            "before": ["]", "d"],
+            "commands": ["editor.action.mark.next"]
+        },
+        {
+            "before": ["[", "d"],
+            "commands": ["editor.action.mark.prev"]
+        }
+    ],
+
+    // Formatting
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "html.format.indentInnerHtml": true,
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "php.validate.executablePath": "C:/xampp/php/php.exe",
+    "C_Cpp.autocompleteAddParentheses": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+
+    // GIT
+    "git.autofetch": true
+}
