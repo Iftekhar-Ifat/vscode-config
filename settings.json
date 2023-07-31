@@ -7,9 +7,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.wordWrap": "on",
     "editor.suggest.insertMode": "replace",
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
     "editor.formatOnSave": true,
     "editor.dragAndDrop": true,
-    "editor.minimap.enabled": false,
     "editor.smoothScrolling": true,
     "editor.inlineSuggest.enabled": true,
     "editor.stickyScroll.enabled": true,
@@ -24,12 +25,10 @@
     },
     "prettier.tabWidth": 4,
     "editor.codeActionsOnSave": {
-        "source.addMissingImports": true,
-        "source.organizeImports": true
+        "source.addMissingImports": true
     },
     "workbench.colorTheme": "Bear Theme",
     "explorer.confirmDelete": false,
-    "breadcrumbs.enabled": false,
 
     // Terminal
     "terminal.integrated.fontFamily": "'Fira Code'",
@@ -48,28 +47,8 @@
     "projectManager.git.baseFolders": ["E:/"],
     "projectManager.sortList": "Recent",
 
-    // VIM
-    "vim.leader": "<space>",
-    "vim.useSystemClipboard": true,
-    "vim.highlightedyank.enable": true,
-    "vim.normalModeKeyBindings": [
-        {
-            "before": ["leader", "h"],
-            "commands": ["editor.action.showHover"]
-        },
-        {
-            "before": ["leader", "c", "a"],
-            "commands": ["editor.action.quickFix"]
-        },
-        {
-            "before": ["]", "d"],
-            "commands": ["editor.action.mark.next"]
-        },
-        {
-            "before": ["[", "d"],
-            "commands": ["editor.action.mark.prev"]
-        }
-    ],
+    // NeoVim (init.lua)
+    "vscode-neovim.neovimInitVimPaths.win32": "C:/Users/User/AppData/Local/nvim/init.lua",
 
     // Formatting
     "[html]": {
@@ -85,15 +64,14 @@
     "php.validate.executablePath": "C:/xampp/php/php.exe",
     "C_Cpp.autocompleteAddParentheses": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.suggest.autoImports": true,
 
     // GIT
     "git.autofetch": true
 }
 
-// Mendatory Plugins
-
 /* 
-   1. VIM
+   1. NeoVIM
    2. Bear Theme 
    3. Error Lens
    4. ES7 + React/Redux/React-Native snippets
