@@ -16,6 +16,11 @@
 	"editor.smoothScrolling": true,
 	"editor.inlineSuggest.enabled": true,
 	"editor.stickyScroll.enabled": true,
+	"editor.quickSuggestions": {
+		"other": "on",
+		"comments": "off",
+		"strings": true
+	},
 	"editor.quickSuggestionsDelay": 5,
 	"files.exclude": {
 		"**/.git": true,
@@ -27,7 +32,7 @@
 	},
 	"prettier.tabWidth": 2,
 	"editor.codeActionsOnSave": {
-		"source.addMissingImports": true
+		"source.addMissingImports": "explicit"
 	},
 	"workbench.colorTheme": "Bear Theme",
 	"explorer.confirmDelete": false,
@@ -92,37 +97,53 @@
 	"git.autofetch": true,
 	"redhat.telemetry.enabled": false,
 	"files.associations": {
-		"*.py": "python"
+		"*.py": "python",
+		"*.tsx": "typescriptreact"
 	},
 	"cSpell.userWords": [
 		"asvetliakov",
 		"autofetch",
 		"autopep",
 		"bmewburn",
+		"bootcamp",
+		"clsx",
 		"codesnap",
 		"cpptools",
 		"daisyui",
 		"esbenp",
 		"fastify",
 		"Fira",
+		"groq",
+		"Hilorang",
+		"iftekhar",
 		"intelephense",
+		"Intellizlab",
+		"lucide",
 		"neovim",
 		"nestjs",
+		"nextjs",
 		"nvim",
+		"Résumé",
+		"superjson",
 		"tailwindcss",
+		"tanstack",
+		"Tbrand",
+		"Tcategory",
+		"Topbar",
+		"trpc",
+		"typeorm",
+		"uidotdev",
+		"usehooks",
 		"xampp"
 	],
+	"tailwindCSS.includeLanguages": {
+		"javascript": "javascript",
+		"javascriptreact": "javascriptreact",
+		"typescript": "typescript",
+		"typescriptreact": "typescriptreact",
+		"plaintext": "javascript"
+	},
+	"svg.preview.transparencyGrid": false,
+	"svg.preview.boundingBox": true,
+	"editor.tabSize": 2,
 }
-
-/* 
-   1. NeoVIM
-   2. Bear Theme 
-   3. Error Lens
-   4. ES7 + React/Redux/React-Native snippets
-   5. ESLint
-   6. Import Cost
-   7. Material Icon Theme
-   8. Prettier
-   9. Project Manager
-  10. Spell
-*/
