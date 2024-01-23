@@ -1,5 +1,5 @@
 {
-	// Editor
+	// Editor config
 	"editor.fontSize": 16,
 	"workbench.iconTheme": "material-icon-theme",
 	"editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace'",
