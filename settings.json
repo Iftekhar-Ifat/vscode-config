@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     // Editor
     "editor.fontSize": 16,
     "workbench.iconTheme": "material-icon-theme",
@@ -154,3 +155,153 @@
     "svg.preview.boundingBox": true,
     "editor.tabSize": 2
 }
+=======
+	// Editor config
+	"editor.fontSize": 16,
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace'",
+	"editor.fontLigatures": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.wordWrap": "on",
+	"editor.suggest.insertMode": "replace",
+	"editor.minimap.enabled": false,
+	"window.customMenuBarAltFocus": false,
+	"window.enableMenuBarMnemonics": false,
+	"breadcrumbs.enabled": false,
+	"editor.formatOnSave": true,
+	"editor.dragAndDrop": true,
+	"editor.smoothScrolling": true,
+	"editor.inlineSuggest.enabled": true,
+	"editor.stickyScroll.enabled": true,
+	"editor.quickSuggestions": {
+		"other": "on",
+		"comments": "off",
+		"strings": true
+	},
+	"editor.quickSuggestionsDelay": 5,
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true,
+		"**/node_modules": true
+	},
+	"prettier.tabWidth": 2,
+	"editor.codeActionsOnSave": {
+		"source.addMissingImports": "explicit"
+	},
+	"workbench.colorTheme": "Bear Theme",
+	"explorer.confirmDelete": false,
+	// Terminal
+	"terminal.integrated.fontFamily": "'Fira Code'",
+	"terminal.integrated.fontSize": 17,
+	"terminal.integrated.gpuAcceleration": "on",
+	/* Extension Specific */
+	// Code Snap
+	"codesnap.containerPadding": "0em",
+	"codesnap.backgroundColor": "#111111",
+	"codesnap.transparentBackground": true,
+	// React Snippets
+	"reactSnippets.settings.prettierEnabled": true,
+	// Project Manager
+	"projectManager.git.baseFolders": [
+		"E:/"
+	],
+	"projectManager.sortList": "Recent",
+	// NeoVim (init.lua)
+	"vscode-neovim.neovimInitVimPaths.win32": "C:/Users/User/AppData/Local/nvim/init.lua",
+	"extensions.experimental.affinity": {
+		"asvetliakov.vscode-neovim": 1
+	},
+	// total typescript
+	"totalTypeScript.hideAllTips": true,
+	"totalTypeScript.hideBasicTips": true,
+	// Formatting
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[markdown]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[java]": {
+		"editor.defaultFormatter": "redhat.java"
+	},
+	"html.format.indentInnerHtml": true,
+	"[php]": {
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[cpp]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools"
+	},
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.autopep8"
+	},
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	},
+	"php.validate.executablePath": "C:/xampp/php/php.exe",
+	"C_Cpp.autocompleteAddParentheses": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"javascript.suggest.autoImports": true,
+	// GIT
+	"git.autofetch": true,
+	"redhat.telemetry.enabled": false,
+	"files.associations": {
+		"*.py": "python",
+		"*.tsx": "typescriptreact"
+	},
+	"cSpell.userWords": [
+		"asvetliakov",
+		"autofetch",
+		"autopep",
+		"bmewburn",
+		"bootcamp",
+		"clsx",
+		"codesnap",
+		"cpptools",
+		"daisyui",
+		"esbenp",
+		"fastify",
+		"Fira",
+		"groq",
+		"Hilorang",
+		"iftekhar",
+		"intelephense",
+		"Intellizlab",
+		"lucide",
+		"neovim",
+		"nestjs",
+		"nextjs",
+		"nvim",
+		"Résumé",
+		"superjson",
+		"tailwindcss",
+		"tanstack",
+		"Tbrand",
+		"Tcategory",
+		"Topbar",
+		"trpc",
+		"typeorm",
+		"uidotdev",
+		"usehooks",
+		"xampp"
+	],
+	"tailwindCSS.includeLanguages": {
+		"javascript": "javascript",
+		"javascriptreact": "javascriptreact",
+		"typescript": "typescript",
+		"typescriptreact": "typescriptreact",
+		"plaintext": "javascript"
+	},
+	"svg.preview.transparencyGrid": false,
+	"svg.preview.boundingBox": true,
+	"editor.tabSize": 2,
+}
+>>>>>>> 248e094a85368b17682510f70603ec76817d8488
