@@ -52,7 +52,7 @@ keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if ne
 if vim.g.vscode then
 	
 	-- Vertical Scrolling
-    local function center_screen() vim.cmd("call <SNR>3_reveal('center', 0)") end
+  local function center_screen() vim.cmd("call <SNR>3_reveal('center', 0)") end
 	vim.keymap.set("", "z,", center_screen)
 	local function top_screen() vim.cmd("call <SNR>3_reveal('top', 0)") end
 	vim.keymap.set("", "zm", top_screen)

@@ -9,14 +9,24 @@
         "command": "workbench.action.terminal.toggleTerminal",
         "when": "terminal.active"
     },
-
     {
         "key": "alt+`",
-        "command": "workbench.action.nextEditor"
+        "command": "workbench.action.nextEditor",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+`",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
     },
     {
         "key": "alt+e",
         "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "alt+h",
+        "command": "editor.action.showDefinitionPreviewHover",
+        "when": "editorTextFocus"
     },
     {
         "key": "alt+e",
@@ -25,7 +35,13 @@
     },
     {
         "key": "alt+q",
-        "command": "workbench.action.closeActiveEditor"
+        "command": "workbench.action.closeActiveEditor",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+q",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
     },
     {
         "key": "a",
@@ -51,5 +67,25 @@
         "key": "d",
         "command": "deleteFile",
         "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "ctrl+f4",
+        "command": "workbench.action.terminal.killEditor",
+        "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated || terminalEditorFocus && terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+f4",
+        "command": "-workbench.action.terminal.killEditor",
+        "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated || terminalEditorFocus && terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.terminal.new",
+        "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+    },
+    {
+        "key": "ctrl+shift+`",
+        "command": "-workbench.action.terminal.new",
+        "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
     }
 ]
